@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="icon" href="img/perfil.png">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="css/styles.css">
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -16,7 +17,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Marlon</a>
+                    <a href="#" class="nav__logo">Ritesh Patel</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -39,7 +40,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Marlon</span><br> Web Designer</h1>
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Ritesh Patel</span><br> CS Student</h1>
 
                     <a href="#" class="button">Contact</a>
                 </div>
@@ -51,7 +52,7 @@
                 </div>
 
                 <div class="home__img">    
-                    <img src="assets/img/perfil.png" alt="">
+                    <img src="img/perfil.png" alt="">
                 </div>
             </section>
 
@@ -61,11 +62,11 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="img/about.jpg" alt="">
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I'am Marlon</h2>
+                        <h2 class="about__subtitle">I'am Ritesh</h2>
                         <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
                     </div>                                   
                 </div>
@@ -75,63 +76,76 @@
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
 
-                <div class="skills__container bd-grid">          
+                <div class="skills__container">          
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
                         <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
+                        
+                    </div>
 
+
+                    <section class="section-features">
+                        <div class="row">
+                            <div class="col-1-of-4">
+                                <div class="feature-box">
+                                    <i class="feature-box__icon icon-basic-webpage"></i>
+                                    <h3 class="heading-tertiary u-margin-bottom-small">Front End</h3>
+                                    <p class="feature-box__text">
+                                        <ul>
+                                            <li>HTML5</li>
+                                            <li>CSS3 | SASS</li>
+                                            <li>JavaScript</li>
+                                            <li>React | Redux</li>
+                                        </ul>
+                                    </p>
+                                </div>
                             </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
+                            <div class="col-1-of-4">
+                                <div class="feature-box">
+                                    <i class="feature-box__icon icon-basic-share"></i>
+                                    <h3 class="heading-tertiary u-margin-bottom-small">Server</h3>
+                                    <p class="feature-box__text">
+                                        <ul>
+                                            <li>NodeJS</li>
+                                            <li>Express</li>
+                                            <li>Koa</li>
+                                            <li>Python</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1-of-4">
+                                <div class="feature-box">
+                                    <i class="feature-box__icon icon-basic-server2"></i>
+                                    <h3 class="heading-tertiary u-margin-bottom-small">Database</h3>
+                                    <p class="feature-box__text">
+                                        <ul>
+                                            <li>PostgreSQL</li>
+                                            <li>mySQL</li>
+                                            <li>MongoDB</li>
+                                            <li>Cassandra</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1-of-4">
+                                <div class="feature-box">
+                                    <i class="feature-box__icon icon-basic-cloud"></i>
+                                    <h3 class="heading-tertiary u-margin-bottom-small">Deployment</h3>
+                                    <p class="feature-box__text">
+                                        <ul>
+                                            <li>System Design</li>
+                                            <li>AWS ECS | SQS</li>
+                                            <li>Docker</li>
+                                            <li>Git</li>
+                                        </ul>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
+                    </section>
                     
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
+                    
                 </div>
             </section>
 
@@ -140,24 +154,53 @@
                 <h2 class="section-title">Work</h2>
 
                 <div class="work__container bd-grid">
+                    
                     <div class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
+                        <img src="img/work1.jpg" alt="">
+
+                        <div class="overlay">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet a, vitae earum neque necessitatibus officia id maxime animi corporis saepe vero vel dignissimos impedit consectetur, hic aspernatur in unde.</p>
+                       </div>
+                       
                     </div>
+
+
+
+
                     <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
+                        <img src="img/work2.jpg" alt="">
                     </div>
+
+
+
+
                     <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
+                        <img src="img/work3.jpg" alt="">
                     </div>
+
+
+
                     <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
+                        <img src="img/work4.jpg" alt="">
                     </div>
+
+     
+
+
                     <div class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
+                        <img src="img/work5.png" alt="">
                     </div>
+
+ 
+
+
+
                     <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
+                        <img src="img/work6.jpg" alt="">
                     </div>
+
+
+
                 </div>
             </section>
 
@@ -169,8 +212,8 @@
                     <form action="" class="contact__form">
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                        <textarea placeholder="Description" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enter" class="contact__button button">
                     </form>
                 </div>
             </section>
@@ -178,13 +221,7 @@
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <p class="footer__title">Marlon</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p>&#169; 2020 copyright all right reserved</p>
+            <p class="footer__title">Ritesh Patel</p>
         </footer>
 
 
@@ -192,6 +229,6 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
