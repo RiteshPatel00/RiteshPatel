@@ -5,7 +5,8 @@ Personal Portfolio to showcase my coding projects
 No installation here! Just clone the repository and click on index.html
 
 ## Usage
-Go to this [link](riteshpatel00.github.io/riteshpatel/)
+Go to this [I'm an inline-style link](https://www.google.com)
+
 
 
 ## Contributing
